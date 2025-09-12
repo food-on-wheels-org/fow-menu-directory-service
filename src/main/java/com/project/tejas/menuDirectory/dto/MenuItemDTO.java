@@ -11,7 +11,7 @@ public class MenuItemDTO {
     private int id;
     private String dishName;
     private String dishDescription;
-    private boolean isVeg;
+    private Boolean isVeg;
     private Long price;
     private Integer restaurantId;
     private Integer quantity;
