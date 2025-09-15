@@ -34,7 +34,7 @@ public class MenuDirectoryService {
     }
 
     private RestaurantListing fetchDetailsFromRestaurantListingService(Integer restaurantId) {
-        return restTemplate.getForObject("http://RESTAURANT-SERVICE/fetchRestaurantById/" + restaurantId, RestaurantListing.class);
+        return restTemplate.getForObject("http://RESTAURANT-SERVICE/restaurant/fetchRestaurantById/" + restaurantId, RestaurantListing.class);
     }
 
     private List<MenuItem> fetchMenuItemsList(Integer restaurantId) {
