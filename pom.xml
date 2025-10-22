@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
 		<sonar.exclusions> **/com/project/tejas/menuDirectory/repo/** , **/com/project/tejas/menuDirectory/dto/** , **/com/project/tejas/menuDirectory/mapper/** ,
-			**/com/project/tejas/menuDirectory/entity/** , **/com/project/tejas/menuDirectory/repo/**,  **/com/project/tejas/menuDirectory/MenuDirectoryApplication.java
+			**/com/project/tejas/menuDirectory/entity/** , **/com/project/tejas/menuDirectory/config/**,  **/com/project/tejas/menuDirectory/MenuDirectoryApplication.java
 		</sonar.exclusions>
 	</properties>
 	<dependencies>
