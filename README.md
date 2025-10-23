@@ -5,7 +5,7 @@ Manages menu items associated with restaurants in the Food-on-Wheels platform.
 ---
 
 ## Overview
-- REST API built using Spring Boot and AWS RDS (MySQL).  
+- Spring Boot REST API built using Spring Boot and **AWS RDS (MySQL)**.  
 - Integrates with the **restaurant-listing-service** for linked data.  
 - Exposed through Ingress and AWS ALB.
 
